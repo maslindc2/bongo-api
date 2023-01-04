@@ -1,0 +1,22 @@
+{
+  "name": "bongo-gif-express",
+  "version": "1.0.0",
+  "description": "Express app to serve a random url to a gif each time the app receives a request. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maslindc2/bongo-gif-express.git"
+  },
+  "author": "Maslin Farrell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maslindc2/bongo-gif-express/issues"
+  },
+  "homepage": "https://github.com/maslindc2/bongo-gif-express#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

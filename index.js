@@ -37,17 +37,21 @@ app.post('/update', (req, res) =>{
     fetchUpdate();
 });
 app.get('/bongoGif', (req, res) =>{
+    fetchUpdate();
     res.send(bongoGif);
 });
 
 app.get('/bookmarks', (req, res) =>{
+    fetchUpdate();
     res.send(bookmarks);
 });
 app.get('/background', (req, res) => {
+    fetchUpdate();
     res.send(backgroundURL);
 });
 
 app.get('/searchProvider', (req, res) =>{
+    fetchUpdate();
     res.send(searchProvider);
 });
 

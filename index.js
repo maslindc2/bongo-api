@@ -17,7 +17,7 @@ let searchProvider = "";
     
 const main = async() =>{
     console.log("Fetching");
-    const res = await fetch('https://raw.githubusercontent.com/maslindc2/startpage-cms/main/ListAlt.json').then(response => response.json()).then(json => {
+    const res = await fetch('https://raw.githubusercontent.com/maslindc2/startpage-cms/main/List.json').then(response => response.json()).then(json => {
         bongoGif = json.BongoGif;
         bookmarks = json.Bookmarks;
         backgroundURL = json.Background;

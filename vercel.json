@@ -1,9 +1,14 @@
 {
-    "version": 2,
-    "routes": [
+  "builds": [
+      {
+          "src": "index.js --no-warnings",
+          "use": "@vercel/node"
+      }
+  ],
+  "routes": [
       {
         "src": "/(.*)",
         "dest": "index.js"
       }
-    ]
-  }
+  ]
+}

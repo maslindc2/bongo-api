@@ -29,7 +29,9 @@ main().then(res =>{
     app.listen(PORT, () => {
         console.log(`Listening on PORT ${PORT}`);
     });
-
+    app.get('/', (req, res) =>{
+        res.send("Welcome to Bongo API. The available routes are listed below. /bongoGif delivers a json with urls to various bongo GIFs. /bookmarks delivers json with all of the links and icons. /searchProvider delivers json with search engine and the commands to switch to them.");
+    })
     app.get('/bongoGif', (req, res) =>{
         res.send(bongoGif);
     });
